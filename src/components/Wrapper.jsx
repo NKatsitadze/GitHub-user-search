@@ -21,6 +21,11 @@ const StyledScreenBox = styled.div`
     justify-content: center;
     align-items: center;
     transition: all 0.3s;
+
+    //Below 550px //
+    @media (max-width: 34.375em) {
+        padding-bottom: 1rem;
+    }
 `
 
 const MainBox = styled.div`
