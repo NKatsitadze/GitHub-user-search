@@ -93,7 +93,7 @@ const SearchContainer = styled.form`
 
             //Below 550px //
             @media (max-width: 34.375em) {
-                font-size: 0.8rem;
+                font-size: 0.7rem;
                 letter-spacing: 1px;
             }
         }
