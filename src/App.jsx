@@ -76,7 +76,6 @@ function App() {
 
       const data = await response.json();
       setFetchedData(data);
-      console.log(data)
     } catch (err) {
       setIsLoading(false);
       setError(err.message);
