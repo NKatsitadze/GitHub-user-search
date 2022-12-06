@@ -24,6 +24,7 @@ const StyledScreenBox = styled.div`
 
     //Below 550px //
     @media (max-width: 34.375em) {
+        height: 105vh;
         padding-bottom: 1rem;
     }
 `
